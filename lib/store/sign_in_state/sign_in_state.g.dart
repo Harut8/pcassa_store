@@ -1,0 +1,33 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'sign_in_state.dart';
+
+// **************************************************************************
+// StoreGenerator
+// **************************************************************************
+
+// ignore_for_file: non_constant_identifier_names, unnecessary_brace_in_string_interps, unnecessary_lambdas, prefer_expression_function_bodies, lines_longer_than_80_chars, avoid_as, avoid_annotating_with_dynamic, no_leading_underscores_for_local_identifiers
+
+mixin _$SignInState on SignInStateBase, Store {
+  late final _$codeAtom = Atom(name: 'SignInStateBase.code', context: context);
+
+  @override
+  String get code {
+    _$codeAtom.reportRead();
+    return super.code;
+  }
+
+  @override
+  set code(String value) {
+    _$codeAtom.reportWrite(value, super.code, () {
+      super.code = value;
+    });
+  }
+
+  @override
+  String toString() {
+    return '''
+code: ${code}
+    ''';
+  }
+}

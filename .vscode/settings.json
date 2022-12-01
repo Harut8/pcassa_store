@@ -1,0 +1,12 @@
+{
+    "git.ignoreLimitWarning": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "C:\\Users\\User\\Downloads\\Car_Database.db",
+            "name": "data"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
